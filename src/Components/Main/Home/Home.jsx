@@ -1,10 +1,15 @@
-import React from 'react'
+import  Project1 from "../../../assets/project1.png"
+import  Project2 from "../../../assets/project2.png"
+import  Project3 from "../../../assets/project3.png"
+import  Project4 from "../../../assets/project4.png"
+import  Project5 from "../../../assets/project5.png"
+import  Project6 from "../../../assets/project6.png"
 
 const Home = () => {
     return (
         <>
-        <div className="w-full h-screen   flex items-center">
-        <div className="w-[40%] h-5/6 ">
+        <div className="w-full h-screen   flex items-center phone:flex phone:flex-col phone:items-center phone:justify-center ">
+        <div className="w-[40%] h-5/6  phone:flex phone:items-center phone:justify-center phone:w-full  phone:h-[40%] ">
         <img className='w-3/4 h-96 ml-80 mt-15' src="https://vishal-resume.vercel.app/assets/me1.avif" alt="" />
         
         </div>
@@ -200,36 +205,36 @@ const Home = () => {
         </div>
         <div className="w-full h-[180vh] p-20 flex flex-wrap items-center justify-evenly ">
         <div className=" flex items-center justify-center flex-col w-[28%] h-[450px] bg-white border-2  border-gray-500 rounded-xl">
-        <img className='w-[70%] h-[60%]   object-fill rounded-2xl' src="src\assets\project1.png" alt="" />
+        <img className='w-[70%] h-[60%]   object-fill rounded-2xl' src={Project1} alt="" />
         <span className='flex items-center justify-center mt-10 text-4xl font-sans font-bold'>BUILDING TEAM</span>
         <a href='https://react-tailwind-css-webpages-6cv6.vercel.app/' type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-800 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-red-600-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 mt-7">Live Demo</a>
         </div>
         
         <div className="w-[28%] h-[450px] flex items-center justify-center flex-col bg-white border-2  border-gray-500 rounded-xl">
-        <img className='w-[70%] h-[60%]    object-fill rounded-2xl' src="src\assets\project2.png " alt="" />
+        <img className='w-[70%] h-[60%]    object-fill rounded-2xl' src={Project2} alt="" />
         <span className='flex items-center justify-center mt-10 text-4xl font-sans font-bold'>LOGIN PAGE</span>
         <a href='https://react-login-load-onclick-and-on-change-cqyv.vercel.app/' type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-800 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-red-600-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 mt-7">Live Demo</a>
         
         </div>
         <div className="w-[28%] h-[450px] flex items-center justify-center flex-col bg-white border-2  border-gray-500 rounded-xl">
-        <img className='w-[70%] h-[60%]   object-fill rounded-2xl' src="src\assets\project3.png" alt="" />
+        <img className='w-[70%] h-[60%]   object-fill rounded-2xl' src={Project3} alt="" />
         <span className='flex items-center justify-center mt-10 text-4xl font-sans font-bold'>FETCH API</span>
         <a href='https://react-fetch-api-data.vercel.app/' type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-800 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-red-600-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 mt-7">Live Demo</a>
         </div>
         <div className="w-[28%] h-[450px] flex items-center justify-center flex-col bg-white border-2  border-gray-500 rounded-xl">
-        <img className='w-[70%] h-[60%]   object-fill rounded-2xl' src="src\assets\project4.png" alt="" />
+        <img className='w-[70%] h-[60%]   object-fill rounded-2xl' src={Project4} alt="" />
         <span className='flex items-center justify-center mt-10 text-4xl font-sans font-bold ml-16'>SETTIME OUT LOADING</span>
         <a href='https://java-practice-q91y.vercel.app/index.html' type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-800 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-red-600-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 mt-7">Live Demo</a>
         
         </div>
         <div className="w-[28%] h-[450px] flex items-center justify-center flex-col  bg-white border-2  border-gray-500 rounded-xl">
-        <img className='w-[70%] h-[60%]   object-fill rounded-2xl' src="src\assets\project5.png" alt="" />
+        <img className='w-[70%] h-[60%]   object-fill rounded-2xl' src={Project5} alt="" />
         <span className='flex items-center justify-center mt-10 text-4xl font-sans font-bold'>NEXT.JS</span>
         <a href='https://nextjs-sooty-one-46.vercel.app/' type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-800 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-red-600-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 mt-7">Live Demo</a>
         
         </div>
         <div className="w-[28%] h-[450px] flex items-center justify-center flex-col bg-white border-2  border-gray-500 rounded-xl">
-        <img className=' w-[70%] h-[60%]  object-fill  rounded-2xl' src="src\assets\project6.png" alt="" />
+        <img className=' w-[70%] h-[60%]  object-fill  rounded-2xl' src={Project6} alt="" />
         <span className='flex items-center justify-center mt-10 text-4xl font-sans font-bold'>SVELTEKIT.APP</span>
         <a href='https://sveltekit-1-flame-two.vercel.app/' type="button" class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-800 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-red-600-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 mt-7">Live Demo</a>
         
