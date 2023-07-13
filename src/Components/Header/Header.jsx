@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
     <div className="w-full h-20 flex phone:items-center phone:justify-center">
-        <div className="w-2/4 h-20  flex items-center  justify-center text-4xl text-black-600 pr-48 font-bold font-sans">BABA VALI</div>
+        <div className="w-2/3 h-20   justify-center text-4xl text-black-600  font-bold font-sans phone:text-[30px]  phone:w-full phone:h-[40%] flex items-center phone:flex phone:items-center phone:justify-center ">BABA VALI</div>
         <div className="w-2/4 h-20 phone:hidden">
             <span className='
             flex items-center justify-evenly mt-7 text-xl gap-2 '>
